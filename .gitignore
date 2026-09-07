@@ -1,0 +1,76 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases
+*.sqlite3
+*.db
+
+# Python tooling
+pip-wheel-metadata/
+poetry.lock
+
+# Pylint
+.pylint.d/
+
+# PyCharm
+*.iml
+
+# mypy
+.dmypy.json
+dmypy.json
+
+# Local configuration
+*.local
+
+# Temporary files
+*.tmp
+*.temp
+/.idea
+cookies.json
