@@ -1,0 +1,16 @@
+tools:
+  # your existing tools
+  - name: chatgpt_subagent
+    description: "Delegates prompts, complex reasoning, or synthesis tasks to an active ChatGPT browser subagent."
+    parameters:
+      type: object
+      properties:
+        prompt:
+          type: string
+          description: "The exact message or query to pass to ChatGPT."
+        reset_session:
+          type: boolean
+          description: "Set to true if you need to clear memory and start a brand-new conversation thread."
+      required:
+        - prompt
+    command: '/usr/local/lib/hermes-agent/venv/bin/python /root/.hermes/chatgpt_proxy/chatgpt_tool.py "{prompt}"'
